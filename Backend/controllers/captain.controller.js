@@ -36,6 +36,8 @@ import { BlacklistToken } from "../models/blacklistToken.model.js";
 
     res.cookie('captain-token',token,{
         httpOnly:true,
+        secure: true,         // Ensures cookies are only sent over HTTPS
+        sameSite: "none", 
     })
 
     return res
@@ -72,6 +74,8 @@ const loginCaptain = async (req, res, next) => {
     
     res.cookie('captain-token', token,{
         httpOnly:true,
+        secure: true,         // Ensures cookies are only sent over HTTPS
+        sameSite: "none", 
     })
 
     return res
