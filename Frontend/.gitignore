@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Production build (React)
+build/
+
+# Cache and lock files
+.cache/
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swn
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git-specific files
+*.orig
+*.rej
+
+# Test coverage
+coverage/
+
+# Lint/Formatting
+.eslintcache
+
+# Storybook files
+storybook-static/
+
+# Miscellaneous
+*.bak
+*.backup
+
+# Public uploads (optional, if using uploads in development)
+uploads/
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> e77ea4b (fix)
