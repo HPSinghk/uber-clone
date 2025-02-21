@@ -11,7 +11,7 @@ import rideRouter from './routes/ride.routes.js'
 
 const app = express();
 app.use(cors({
-    origin:['http://localhost:5173','https://kqbjj9pj-5173.inc1.devtunnels.ms'], // Replace with your frontend's URL
+    origin:['http://localhost:5173','https://go-sefast.netlify.app'], // Replace with your frontend's URL
     credentials: true, // Allow cookies to be sent with requests
   }));
 app.use(express.urlencoded({extended:true}));
