@@ -66,7 +66,7 @@ const loginUser = async (req ,res ,next) => {
 
         const token = await user.generateAuthToken();
         
-        res.
+        await res.
         cookie('user-token',token,{
             httpOnly: true,
         })
